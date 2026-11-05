@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DropIn.Common/DropIn.Common.csproj" />
+  <Project Path="DropIn.Installer/DropIn.Installer.csproj" />
+  <Project Path="DropIn.IconHandler/DropIn.IconHandler.csproj" />
+  <Project Path="DropIn.Packager/DropIn.Packager.csproj" />
+</Solution>

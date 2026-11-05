@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DropIn.Common\DropIn.Common.csproj" />
+    <ProjectReference Include="..\DropIn.IconHandler\DropIn.IconHandler.csproj" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="8.0.1" />
+    <EmbeddedResource Include="..\app_icon.ico" LogicalName="app_icon.ico" />
+    <Content Include="..\file_icon.ico" Link="file_icon.ico" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>..\app_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+</Project>
