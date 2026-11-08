@@ -1,0 +1,15 @@
+bin/
+obj/
+artifacts*/
+build/
+publish/
+TestResults/
+
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+Thumbs.db
+Desktop.ini
+.DS_Store

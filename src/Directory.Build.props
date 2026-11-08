@@ -1,0 +1,13 @@
+<Project>
+  <!-- Build the programs and their shared dependencies into one folder. -->
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>true</AppendRuntimeIdentifierToOutputPath>
+    <OutputPath>$(MSBuildThisFileDirectory)..\build\$(Configuration)\</OutputPath>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <InformationalVersion>1.0.0</InformationalVersion>
+    <Copyright>Copyright © 2026 Sidik Hadi Kurniadi</Copyright>
+  </PropertyGroup>
+</Project>
